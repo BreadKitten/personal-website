@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ['Inter', 'Heebo']
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
