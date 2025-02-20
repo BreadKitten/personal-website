@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import HeaderHolder from './HeaderHolder';
+import HeaderHolder from './_components_navbar/HeaderHolder';
 
 function Navbar() {
   return (
@@ -15,7 +15,7 @@ function Navbar() {
         <HeaderHolder
           className='flex-1'
           names={['About', 'Projects', 'Contact']}
-          links={['/about', '/projects', '/contact']}
+          links={['/home', '/home', 'mailto:bizac23@uw.edu']}
         />
         <span className='mr-[90px]'></span>
       </nav>
